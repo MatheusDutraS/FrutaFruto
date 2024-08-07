@@ -1,0 +1,29 @@
+.receita__item {
+    background-color: #fdfdff;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 5rem;
+    width: 25%;
+}
+
+@media screen and (min-width: 0) {
+    .receita__item {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita__item {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita__item {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
